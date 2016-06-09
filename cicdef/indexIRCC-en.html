@@ -118,25 +118,116 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
   </nav>
 </header>
 <main role="main" property="mainContentOfPage" class="container">
-  <h1 property="name" id="wb-cont">Demo for the usage of definitions in page within content</h1>
+  <h1 property="name" id="wb-cont">IRCC Glossary Demo</h1>
   
   
 
-<p>Describe demo</p>
 
-<h2>Demo by Shawn</h2>
-<p>Here’s a sample of loading sections of a page using ajax. Every definition link loads the proper modal from the page glossary page</p>
-<ul>
-  <li><a href="indexSC-en.html">Demo page</a></li>
-  <li><a href="definitionSC.html">Definition page</a></li>
-</ul>
 
-<h2>IRCC demo</h2>
-<p><a href="indexIRCC-en.html">Glossary demo page</a></p>
-<ul>
-	<li><a href="glossaryIRCC-overlay-en.html">In page definition - Overlay</a></li>
-    <li><a href="glossaryIRCC-lightbox-en.html">In page definition - Lightbox</a></li>
-</ul>
+
+
+<p><strong>Note:</strong> The purpose of these definitions is to help people understand the terms we use on this website. They are not intended to be legal definitions, and should not be treated as such.</p>
+        
+        <div class="well">
+<div class="wb-frmvld">
+        <form id="searchGlossary" class="mrgn-tp-sm mrgn-bttm-md form-inline" method="post" onSubmit="">
+
+          <label for="searchTerm" class="h4 mrgn-tp-0">Find definition for:</label>
+          <div class="inputs">
+            <input id="searchTerm" class="form-control pull-left mrgn-rght-sm mrgn-bttm-sm visible-md visible-lg visible-xl" name="searchTerm" type="text" size="135" value="" list="suggestions" required />
+            <input id="searchTerm" class="form-control pull-left mrgn-bttm-sm hidden-md hidden-lg hidden-xl" name="searchTerm" type="text" size="125" value="" list="suggestions" required />
+              <datalist id="suggestions">
+              <!--[if lte IE 9]><select><![endif]-->
+              <!--[if lte IE 9]></select><![endif]-->
+              </datalist>
+       <input class="btn btn-primary" id="btn1" name="btn1" type="submit" value="Search" />
+             </div>
+        </form>
+        </div>
+        
+        
+        </div>
+        
+        <div id="noresult"></div>
+        
+          <ul class="pagination mrgn-tp-0 mrgn-bttm-0 mrgn-rght-md pull-left">
+            <li><a href="#a">A<span class="wb-inv"> glossary</span></a></li>
+            <li><a href="#b">B<span class="wb-inv"> glossary</span></a></li>
+            <li><a href="#v">V<span class="wb-inv"> glossary</span></a></li>
+            <li><a href="#w">W<span class="wb-inv"> glossary</span></a></li>
+            <li><a href="#y">Y<span class="wb-inv"> glossary</span></a></li>
+          </ul> 
+          
+          <p class="mrgn-tp-0 mrgn-bttm-0 pull-left"><a href="#definition" class="btn btn-default btn-lg">See all<span class="wb-inv"> glossary</span></a></p>    
+          <div class="clearfix"></div>
+
+		  <!-- Place holder for the Term and Definitions -->
+          <dl class="dl-horizontal" id="definition">
+          <h2 id="a" class="h1">A</h2>
+          <dt>Academic program</dt>
+            <dd>
+              <p>A post-secondary program that awards an academic degree, diploma or professional certification. This program is often delivered at universities, colleges, seminaries and institutes of technology.</p>
+            </dd>
+            <dt>Address</dt>
+            <dd>
+              <p>An address is the place where a person is living right now. It can be identified by such things as a street number, street name, apartment number, city, town, province/state and country.</p>
+              <p>For example: A student from Mexico studying in Canada should enter the address where he or she is living in Canada.</p>
+            </dd>
+            <dt>Authorized representatives</dt>
+            <dd>
+              <p>There are two types of authorized representatives: Compensated and Uncompensated.</p>
+              <ul>
+                <li>Individuals who receive some form of compensation for their services (either directly or indirectly): Compensated authorized representatives must be members in good standing with their accredited regulatory body.</li>
+                <li>Individuals who provide such services for free: Examples of these individuals include friends, family members, and volunteers or staff members at charitable or non-governmental organizations (NGOS).</li>
+              </ul>
+              <p><strong>See also:</strong></p>
+              <ul>
+                <li>Help Centre: <a href="http://www.cic.gc.ca/search-recherche/index-eng.aspx?search=hc&query=Authorized+Representative&s=0&l=e">Questions that contain this term</a></li>
+                <li>Related terms: <a href="#work_permit">Work permit</a>, <a href="#vocational_training">Vocational training</a></li>
+              </ul>
+            </dd>
+            <h2 id="b" class="h1">B</h2>
+            <dt>Border services officer</dt>
+            <dd>
+              <p>Officers of the Canada Border Services Agency (CBSA), a federal government agency, who have the legal authority to decide who can enter and remain in Canada. These officers have many of the same powers as police officers, including the right to conduct searches, make arrests, and seize documents or goods.</p>
+            </dd>
+            <dt>Bridging program</dt>
+            <dd>
+              <p>A program that helps trained workers address the gap between the knowledge and experience they have and what they need to work in their preferred job or field.</p>
+            </dd>
+            <h2 id="v" class="h1">V</h2>
+            <dt>Valid</dt>
+            <dd>
+              <p>For a document—legal, not expired, and accepted by CIC.</p>
+            </dd>
+            <dt>Vocational training</dt>
+            <dd>
+              <p>A preparation for a specific occupation in industry, agriculture or trade. This training generally includes technical, organizational and basic skills training. It may be offered through on-the-job programs, by unions in conjunction with businesses, by community colleges or universities in conjunction with a specific industry, and by private career colleges.</p>
+            </dd>
+            <h2 id="w" class="h1">W</h2>
+            <dt>Work permit</dt>
+            <dd>
+              <p>A document issued by <abbr>CIC</abbr> that authorizes a person to work legally in Canada. It sets out conditions for the worker such as:</p>
+              <ul>
+                <li>the type of work they can do,</li>
+                <li>the employer they can work for,</li>
+                <li>where they can work, <strong>and</strong></li>
+                <li>how long they can work.</li>
+              </ul>
+            </dd>
+            <dt>Working holiday visa/Working Holiday Program</dt>
+            <dd>
+              <p>See <a href="#international_experience_canada">International Experience Canada</a>.</p>
+            </dd>
+            <h2 id="y" class="h1">Y</h2>
+            <dt>Years of schooling</dt>
+            <dd>
+              <p>Number of years spent in school. Used for statistical purposes, as well as to determine education points in the Federal Skilled Worker selection grid.</p>
+            </dd>
+          </dl>
+
+
+
 
 
 
