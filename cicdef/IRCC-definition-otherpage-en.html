@@ -122,7 +122,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 
   <h1 property="name" id="wb-cont">Glossary - In page definition</h1>
   
-  <p>When you arrive in Canada, a <a href="#glossary-panel" aria-controls="glossary-panel" class="overlay-lnk glossary-link" role="button" data-glossary="/sandbox-wet4/cicdef/IRCC-glossary-definitions-en.html#border_services_officer">border services officer</a> will greet you.</p>
+  <p>When you arrive in Canada, a <a href="#glossary-panel" aria-controls="glossary-panel" class="overlay-lnk glossary-link" role="button" data-glossary="/sandbox-wet4/cicdef/IRCC-glossary-definitions-en.html#border_services_officer">border services officer</a> will greet you. You need an <a href="#glossary-panel" aria-controls="glossary-panel" class="overlay-lnk glossary-link" role="button" data-glossary="/sandbox-wet4/cicdef/IRCC-glossary-definitions-en.html#authorized_representative">authorized representative</a>.</p>
   
    <section id="glossary-panel" class="glossary-overlay wb-overlay modal-content overlay-def wb-bar-b">
         <header class="modal-header">
@@ -259,7 +259,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 <!-- Custom Script -->
 <script src="js/jj-down.js"></script>
 <script>
-$(document).on("click", '.glossary-link', function(event) {
+$('body').on("click", '.glossary-link', function(event) {
 	
 	// Variable declarations
 	var glossaryHREF = $(this).attr('data-glossary');	
